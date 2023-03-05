@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(241, 237, 237);
+    height: 5vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.jump-man-logo{
+    display: flex;
+    padding:3px;
+    margin: 0px 0px 0px 80px;
+    align-items: center;
+}
+.nav-bar{
+    position: absolute;
+    right: 126px;
+    top: 9px;
+}
+.chose-option ul{
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px 0px 720px;
+}
+.header-container{
+    display:flex;
+    position: relative;
+    height: 10vh;
+}
+.main-logo{
+    position: absolute;
+    top:14px;
+    left:80px;
+}
+.search{
+    margin: 12px 0px 0px 66px;
+    position: relative;
+}
+.search input{
+    height: 5vh;
+    border-style: none;
+    background-color: rgb(241, 237, 237);
+    border-radius: 30px;
+    width: 8vw;
+}
+.cart-icon{
+    display: flex;
+    width: 10vw;
+}
+.fav-icon{
+    width: 5vw;
+    padding: 12px 0px 0px 12px ;
+}
+.fav-icon img{
+    width: 1.5vw;
+}
+.bag-icon{
+    width: 5vw;
+    padding: 12px 0px 0px 0px;
+}
+.bag-icon img{
+    width: 1.5vw;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    margin-top:30px;
+    padding: 12px;
+}
+.side-img-bar{
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 42px;
+}
+.img-bar{
+    width: 2.3vw;
+    padding: 5px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 25vw;
+}
+.selected-img{
+    height: 74vh;
+    width: 28vw;
+}
+.selected-img img{
+    height: 74vh;
+    width: 28vw;
+    border-radius: 0.5vw;
+}
+.prod-details{
+    height: 79vh;
+    width: 30vw;
+}
+/* .header{
+    
+} */
+.product-price{
+    margin-top: 1.5vh;
+}
+.second-container{
+    margin-top: 10vh;
+}
+.shoes-size{
+    margin-top: 0.5vh;
+}
+.size-btn{
+    width: 7vw;
+    height: 5vh;
+    border-style:outset;
+    border-color: lightslategray;
+    border-radius: 0.3vw;
+}
+.buy-btn{
+    margin-top: 1.8vh;
+    position: relative;
+}
+.btn{
+    width: 21vw;
+    height: 5.3vh;
+    border-radius: 12vw;
+}
+.btn1{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    margin-top: 0.8vh;
+}
+.fav-icon2{
+    height: 2vh;
+    position: absolute;
+    bottom:1.5vh;
+    right: 15vw;
+}
